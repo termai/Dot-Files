@@ -1,0 +1,33 @@
+#Intro
+# Reload sxhkd config
+super + Escape
+#	"$XDG_CONFIG_HOME"/sxhkd/functions
+	pkill -USR1 -x sxhkd
+#Quit/Restart Bspwm
+super + shift + {q, r}
+	bspc {quit, wm -r}
+#Close Window
+super + {_, shift + }w
+	bspc node -{c, w}
+#Run Browser
+super + b 
+	firefox
+#Run Dmenu
+super + p
+	dmenu_run
+# change wallpaper
+super + n
+	feh --bg-fill -r -z ~/wallpapers/
+#Change nodes in current window
+super + {_, shift + } c
+	bspc node -f {next, prev}.local
+
+#Open Terminal
+super + Return
+	alacritty
+#Change Layouts
+super + m
+	bspc desktop -l next
+#Change desktop
+super + {_,shift +}{1-9,0}
+	bspc {desktop -f, node -d} '^{1-9,10}'
