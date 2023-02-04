@@ -1,0 +1,18 @@
+[2022-09-07 00:08:31.685] [exthost] [info] Extension host with pid 3707 started
+[2022-09-07 00:08:31.685] [exthost] [info] Skipping acquiring lock for /home/termi/.config/Code - OSS/User/workspaceStorage/395c76af6cf5d14426dcda33f2c14cd0.
+[2022-09-07 00:08:31.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-07 00:08:32.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-07 00:08:32.034] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-07 00:08:32.275] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-07 00:08:32.349] [exthost] [info] Eager extensions activated
+[2022-09-07 00:08:32.354] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-07 00:08:32.450] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-07 00:08:32.974] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-07 00:08:36.059] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-07 00:08:36.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-07 00:08:36.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-07 00:08:49.602] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-09-07 00:09:49.509] [exthost] [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: '*'
+[2022-09-07 00:11:42.325] [exthost] [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+[2022-09-07 00:22:37.017] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-07 00:22:37.229] [exthost] [info] Extension host with pid 3707 exiting with code 0

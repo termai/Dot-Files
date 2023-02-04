@@ -1,0 +1,15 @@
+[2022-09-07 00:08:32.214] [sharedprocess] [info] Starting worker process with pid 3742 (type: fileWatcher, window: 1).
+[2022-09-07 00:09:40.394] [sharedprocess] [info] Getting Manifest... yandeu.five-server
+[2022-09-07 00:09:40.523] [sharedprocess] [info] Installing extension: yandeu.five-server
+[2022-09-07 00:09:46.578] [sharedprocess] [info] Downloaded extension: yandeu.five-server /home/termi/.config/Code - OSS/CachedExtensionVSIXs/yandeu.five-server-0.1.4
+[2022-09-07 00:09:49.000] [sharedprocess] [info] Extracted extension to /home/termi/.vscode-oss/extensions/.9cbd826d-7449-46c2-a7ef-15d99b30448f: yandeu.five-server
+[2022-09-07 00:09:49.014] [sharedprocess] [info] Renamed to /home/termi/.vscode-oss/extensions/yandeu.five-server-0.1.4
+[2022-09-07 00:09:49.016] [sharedprocess] [info] Extracting completed. yandeu.five-server
+[2022-09-07 00:09:49.028] [sharedprocess] [info] Extension installed successfully: yandeu.five-server
+[2022-09-07 00:19:15.265] [sharedprocess] [info] Getting Manifest... catppuccin.catppuccin-vsc
+[2022-09-07 00:19:15.545] [sharedprocess] [info] Installing extension: catppuccin.catppuccin-vsc
+[2022-09-07 00:19:17.718] [sharedprocess] [info] Downloaded extension: catppuccin.catppuccin-vsc /home/termi/.config/Code - OSS/CachedExtensionVSIXs/catppuccin.catppuccin-vsc-2.0.0
+[2022-09-07 00:19:17.782] [sharedprocess] [info] Extracted extension to /home/termi/.vscode-oss/extensions/.63f0c438-180a-4dc1-8c58-067364bb853e: catppuccin.catppuccin-vsc
+[2022-09-07 00:19:17.792] [sharedprocess] [info] Renamed to /home/termi/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.0.0
+[2022-09-07 00:19:17.794] [sharedprocess] [info] Extracting completed. catppuccin.catppuccin-vsc
+[2022-09-07 00:19:17.812] [sharedprocess] [info] Extension installed successfully: catppuccin.catppuccin-vsc
