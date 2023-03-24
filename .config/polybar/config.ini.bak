@@ -18,13 +18,11 @@
 
 [colors]
 ;background = #DD023047
-;background = #0A0E14
-;background-alt = #0A0E14
+background = #0A0E14
+background-alt = #0A0E14
 foreground = #FFFFFF
 ;primary = #FFB703
-background = #1a1b26
-primary = #c0caf5
-;primary = #FFFF00
+primary = #FFFF00
 secondary = #8ABEB7
 alert = #A54242
 disabled = #707880
@@ -53,9 +51,8 @@ separator = |
 separator-foreground = ${colors.disabled}
 
 ;font-0 = monospace;2
-font-0 = JetBrainsMono Nerd Font:size=14;2
-font-1 = Mononoki Nerd Font:size=14;2
-font-2 =FontAwesome:size=10;0 
+font-0 = "JetBrainsMono Nerd Font:size=14;2"
+font-1 = "Mononoki Nerd Font:size=14;2"
 ;modules-left = xwindow
 modules-right = pulseaudio date
 ;modules-center = xworkspaces
@@ -99,9 +96,8 @@ separator-foreground = ${colors.disabled}
 
 ;font-0 = monospace;2
 ;font-0 = "Mononoki Nerd Font:size=14;2"
-font-0 = JetBrainsMono Nerd Font:size=14;2
-font-1 = Mononoki Nerd Font:size=14;2
-font-2 =FontAwesome:size=10;0 
+font-0 = "JetBrainsMono Nerd Font:size=14;2"
+font-1 = "Mononoki Nerd Font:size=14;2"
 ;modules-left = xwindow
 ;modules-right = pulseaudio date
 ;modules-center = xworkspaces
@@ -151,10 +147,9 @@ separator-foreground = ${colors.disabled}
 
 ;font-0 = monospace;2
 ;font-0 = "Mononoki Nerd Font:size=14;2"
-font-0 = JetBrainsMono Nerd Font:size=14;2
-font-1 = Mononoki Nerd Font:size=14;2
-font-2 =FontAwesome:size=10;0 
-modules-left = xwindow
+font-0 = "JetBrainsMono Nerd Font:size=14;2"
+font-1 = "Mononoki Nerd Font:size=14;2"
+modules-left = active-windows
 ;modules-right = pulseaudio date
 ;modules-center = xworkspaces
 cursor-click = pointer
@@ -171,6 +166,11 @@ enable-ipc = true
 ; wm-restack = i3
 
 ;override-redirect = true
+
+[module/active-windows]
+type = custom/script
+exec = /home/termi/.myconfig/polyawm.sh
+interval = 1
 
 
 [module/xworkspaces]
@@ -191,7 +191,7 @@ label-urgent-padding = 1
 label-empty = %name%
 label-empty-foreground = ${colors.disabled}
 label-empty-padding = 1
-format-prefix = "    "
+format-prefix = "      "
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:60:...%
